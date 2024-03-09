@@ -12,6 +12,9 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		driver.navigate().to("https:.//google.com");
+		System.out.println("This is Login Page");
+		System.out.println("This is new Comment");
+	
 	}
 	
 }
